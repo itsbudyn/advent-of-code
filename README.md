@@ -1,12 +1,13 @@
 # advent-of-code
 
-- Repository containing source code and inputs used to obtain answers to various editions of Advent of Code. <br>
+Welcome to my repository containing source code and inputs used to obtain answers to various editions of Advent of Code. <br>
 - Fully written in Python
 - All of these have been written by me:
   - No pasted source code (neither parts nor its entirety)
   - No spoiling the solution.
-  - Only form of help used was searching how to use some library (e.g. re) or something else in Standard Python (like: generating a 2d array with X and Y dimensions) <br>
-
+  - Only form of help used was searching how to use some library (e.g. re) or something else in Standard Python (like: generating a 2d array with X and Y dimensions)
+  - And most importantly, absolutley ZERO LMs used in any capacity (no ChatGPT, Copilot or any other)
+### In order not to spoil the event, this repository will be hidden during any ongoing editions of the Advent of Code in which I'm taking part.
 ---
 ### Completion
 <table>
@@ -20,14 +21,14 @@
     <td colspan="2"><center><b>1</td><td>✅</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td>
   </tr>
   <tr>
-	  <td colspan="2"><center><b>2</td><td>✅</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td>
+	<td colspan="2"><center><b>2</td><td>✅</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td>
   </tr> 
     <tr>
     <td rowspan="2"><b>2022</td>
     <td colspan="2"><center><b>1</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>❌</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td>
   </tr>
   <tr>
-	  <td colspan="2"><center><b>2</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>❌</td><td>✅</td><td>❌</td><td>✅</td><td>✅</td><td>✅</td><td>❌</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td>
+	<td colspan="2"><center><b>2</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>❌</td><td>✅</td><td>❌</td><td>✅</td><td>✅</td><td>✅</td><td>❌</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td>
   </tr> 
 </table>
 
