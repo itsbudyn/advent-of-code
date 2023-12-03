@@ -1,6 +1,5 @@
-with open("2015/1/1.txt","r",encoding="UTF-8") as f: text = f.read()
-
 def main(): 
+    with open("1.txt","r",encoding="UTF-8") as f: text = f.read()
     floor = 0
     for i in range(len(text)):
         match text[i]:
