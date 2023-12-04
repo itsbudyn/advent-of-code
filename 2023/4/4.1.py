@@ -1,14 +1,13 @@
 import re
 
 def main():
-    with open("2023/4/4.txt","r",encoding="UTF-8") as f: text = f.readlines()
+    with open("4.txt","r",encoding="UTF-8") as f: text = f.readlines()
 
     games = []
     total_pts = 0
 
     for i in range(len(text)):
-        text[i] = text[i].split(":")[1]
-        text[i] = text[i].split("|")
+        text[i] = text[i].split(":")[1].split("|")
         game = []
         for j in text[i]: game.append(re.findall(r"[0-9]+",j))
         games.append(game)
