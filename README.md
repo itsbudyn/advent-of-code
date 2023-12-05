@@ -23,10 +23,10 @@ Welcome to my repository containing source code and inputs used to obtain answer
   </tr>
   <tr>
     <td rowspan="2"><b>2023</td>
-    <td colspan="2"><center><b>1</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td>
+    <td colspan="2"><center><b>1</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td>
   </tr>
   <tr>
-    <td colspan="2"><center><b>2</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td>
+    <td colspan="2"><center><b>2</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td>
   </tr> 
   <tr>
     <td rowspan="2"><b>2022</td>
@@ -48,6 +48,7 @@ Welcome to my repository containing source code and inputs used to obtain answer
 ### Notes
 |Year|Day|1|2|Notes|
 |:--:|:-:|:-:|:-:|:---:|
+|2023|5|✅|✅|Part 2 counts location from 1 and tries to find matching seed by traversing the map in reverse. I have no further ideas how to make it more efficient. <br> **Exec time**: 6:54.668 on Ryzen 5 5600X |
 |2022|5|✅|✅|Uses hardcoded arrays instead of loading from file|
 |2022|9|✅|❌|Will probably have to redo most of the code if I want to complete 9.2|
 |2022|11|✅|❌|Gave up on part 2|
