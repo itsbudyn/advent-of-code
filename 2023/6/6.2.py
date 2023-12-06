@@ -1,7 +1,7 @@
 import re
 
 def main():
-    with open("2023/6/6.txt","r",encoding="UTF-8") as f: text=f.readlines()
+    with open("6.txt","r",encoding="UTF-8") as f: text=f.readlines()
 
     for i in range(len(text)): text[i] = int("".join(re.findall(r"[0-9]+",text[i])))
 

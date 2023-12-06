@@ -1,7 +1,7 @@
 import re
 
 def main():
-    with open("2023/6/6.txt","r",encoding="UTF-8") as f: text=f.readlines()
+    with open("6.txt","r",encoding="UTF-8") as f: text=f.readlines()
 
     for i in range(len(text)):
         text[i] = re.findall(r"[0-9]+",text[i])
@@ -23,7 +23,7 @@ def main():
 
     multiples = 1
     for i in all_possibilities: multiples*=i
-    
+
     return multiples
 
 if __name__ == "__main__": print(main())
