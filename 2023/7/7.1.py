@@ -1,13 +1,14 @@
+possible_cards = "AKQJT98765432"[::-1]
+
 class Hand:
     def __init__(self, hand: str, bid: int):
         self.bid = bid
         self.hand_type = self.getHandType(hand)
         self.first_card = self.getCardIndex(hand[0])
-        self.high_card = self.getHighCard(hand)
 
         self.hand_array = [self.getCardIndex(i) for i in hand]
 
-        self.HandStats = [self.hand_type, self.hand_array, self.high_card, self.bid]
+        self.HandStats = [self.hand_type, self.hand_array, self.bid]
 
     def getHandType(self, hand):
         cards_distinct = ""
@@ -30,39 +31,31 @@ class Hand:
         return 0
 
     def getHighCard(self, hand):
-        possible_cards = "AKQJT98765432"[::-1]
         for i in range(len(possible_cards)):
             if possible_cards[i] in hand: return possible_cards[::-1].index(possible_cards[i])
 
-    def getCardIndex(self, card):
-        possible_cards = "AKQJT98765432"[::-1]
-        return possible_cards.index(card)
-
+    def getCardIndex(self, card): return possible_cards.index(card)
 
 def main():
-    with open("2023/7/7.txt","r",encoding="UTF-8") as f: text = f.readlines()
+    with open("7.txt","r",encoding="UTF-8") as f: text = f.readlines()
 
     hands = []
     for i in text: hands.append(Hand(i.split(" ")[0],int(i.split(" ")[1])).HandStats)
 
     hand_split = [[] for i in range(7)]
-    for i in hands:
-        hand_split[i[0]].append(i)
+    for i in hands: hand_split[i[0]].append(i)
 
-    for j in range(len(hand_split)-1):
-        for k in range(4,-1,-1):
-            hand_split[j] = sorted(hand_split[j], key = lambda x: int(x[1][k]))
+    for j in range(len(hand_split)):
+        for k in range(4,-1,-1): hand_split[j] = sorted(hand_split[j], key = lambda x: int(x[1][k]))
 
     hands = []
 
     for i in hand_split:
-        for j in i: 
-            hands.append(j)
+        for j in i: hands.append(j)
 
     winnings = 0
     for i in range(len(hands)): winnings += hands[i][-1] * (i+1)
 
     return winnings
-
 
 if __name__ == "__main__": print(main())

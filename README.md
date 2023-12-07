@@ -26,7 +26,7 @@ Welcome to my repository containing source code and inputs used to obtain answer
     <td colspan="2"><center><b>1</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td>
   </tr>
   <tr>
-    <td colspan="2"><center><b>2</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td>
+    <td colspan="2"><center><b>2</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td>
   </tr> 
   <tr>
     <td rowspan="2"><b>2022</td>
