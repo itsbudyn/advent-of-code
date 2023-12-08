@@ -9,7 +9,7 @@ def getNextPoint(arr:list, pos:str, direction:str):
                 case "R": return i[1][1] 
 
 def main():
-    with open("2023/8/8.txt","r",encoding="UTF-8") as f: text=f.read().splitlines()
+    with open("8.txt","r",encoding="UTF-8") as f: text=f.read().splitlines()
 
     route = text[0]
     direction_arr = text[2:]
