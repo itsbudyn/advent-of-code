@@ -1,16 +1,12 @@
 import re
+from math import lcm
 
 def getNextPoint(arr:list, pos:str, direction:str):
-    for i in range(len(arr)):
-        if arr[i][0] == pos:
+    for i in arr:
+        if i[0] == pos:
             match direction:
-                case "L": return arr[i][1][0]
-                case "R": return arr[i][1][1] 
-
-def isFinished(positions:list):
-    for i in positions:
-        if i[-1] != "Z": return False
-    return True
+                case "L": return i[1][0]
+                case "R": return i[1][1] 
 
 def main():
     with open("2023/8/8.txt","r",encoding="UTF-8") as f: text=f.read().splitlines()
@@ -19,21 +15,29 @@ def main():
     direction_arr = text[2:]
 
     directions = []
+    current_pos = []
+
     for i in direction_arr:
         arr = i.split("=")
+        if arr[0][:-1][-1] == "A": current_pos.append(arr[0][:-1])
         directions.append([arr[0][:-1],re.findall(r"[A-Z0-9]{3}",arr[1])])
 
-    current_pos = []
-    for i in directions:
-        if i[0][-1] == "A": current_pos.append(i[0])
+    del direction_arr
 
-    steps = 0
-    while True:
-        for i in range(len(route)):
-            for j in range(0,len(current_pos)-1,2):
-                current_pos[j] = getNextPoint(directions, current_pos[j], route[i])
-                current_pos[j+1] = getNextPoint(directions, current_pos[j+1], route[i])
+    loop_steps = [0 for i in current_pos]
+
+    for j in range(len(current_pos)): 
+        steps = 0
+        hit_loop = False
+        while not hit_loop:
+            for i in route:
+                current_pos[j] = getNextPoint(directions, current_pos[j], i)
                 steps+=1
-                if isFinished(current_pos): return steps
+                if current_pos[j][-1] == "Z":
+                    loop_steps[j] = steps
+                    hit_loop = True
+                if hit_loop: break
+
+    return lcm(*loop_steps)
 
 if __name__ == "__main__": print(main())
