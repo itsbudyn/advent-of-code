@@ -53,11 +53,12 @@ Welcome to my repository containing source code and inputs used to obtain answer
 
 --- 
 ### Notes
-|Year|Day|1|2|Notes|
-|:--:|:-:|:-:|:-:|:---:|
-|2023|5|✅|✅|Part 2 counts location from 1 and tries to find matching seed by traversing the map in reverse. I have no further ideas how to make it more efficient. <br> **Exec time**: 6:54.668 on Ryzen 5 5600X |
-|2022|5|✅|✅|Uses hardcoded arrays instead of loading from file|
-|2022|9|✅|❌|Will probably have to redo most of the code if I want to complete 9.2|
-|2022|11|✅|❌|Gave up on part 2|
-|2022|13|✅|✅|Part 2 does not sort the packets =)|
-|2022|15|❌|❌|Gave up on entire day|
+|Year|Day|Part|Notes|
+|:--:|:-:|:-:|:---:|
+|2023|5|2|Counts location from 1 and tries to find matching seed by traversing the map in reverse. I have no further ideas how to make it more efficient. <br> **Exec time**: 6:54.668 on Ryzen 5 5600X |
+|2022|15|All|Gave up on entire day|
+|2022|13|2|Does not sort the packets =)|
+|2022|11|2|Gave up|
+|2022|9|1|Will probably have to redo most of the code if I want to complete 9.2|
+|2022|5|All|Uses hardcoded arrays instead of loading from file|
+|2015|7|All|Uses recursion with LRU Cache|
