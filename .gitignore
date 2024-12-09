@@ -161,3 +161,6 @@ cython_debug/
 
 # vscode
 settings.json
+
+# advent-of-code
+*.txt
