@@ -1,6 +1,6 @@
 # advent-of-code
 
-Welcome to my repository containing source code and inputs used to obtain answers to various editions of Advent of Code. <br>
+Welcome to my repository containing source code used to obtain answers to various editions of Advent of Code. <br>
 - Fully written in Python
 - All of these have been written by me:
   - No pasted source code (neither parts nor its entirety)
