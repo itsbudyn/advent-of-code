@@ -10,7 +10,6 @@ def main():
     for i in range(75):
         new_stone_map = {}
         for stone in list(stone_map.keys()):
-            occurrences = stone_map[stone]
             stoneStr = str(stone)
             newstones = []
             if stone == 0: newstones = (1,)
@@ -18,8 +17,8 @@ def main():
             else: newstones = (stone*2024,)
 
             for newstone in newstones:
-                if newstone not in new_stone_map.keys(): new_stone_map[newstone] = occurrences
-                else: new_stone_map[newstone] += occurrences
+                if newstone not in new_stone_map.keys(): new_stone_map[newstone] = stone_map[stone]
+                else: new_stone_map[newstone] += stone_map[stone]
         stone_map = new_stone_map
         if i in {24, 74}: results.append(sum(stone_map.values()))
 
