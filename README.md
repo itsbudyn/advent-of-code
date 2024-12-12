@@ -23,10 +23,10 @@ Welcome to my repository containing source code used to obtain answers to variou
   </tr>
     <tr>
     <td rowspan="2"><b>2024</td>
-    <td colspan="2"><center><b>1</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td>
+    <td colspan="2"><center><b>1</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td>
   </tr>
   <tr>
-    <td colspan="2"><center><b>2</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td>
+    <td colspan="2"><center><b>2</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td>
   </tr> 
   <tr>
     <td rowspan="2"><b>2023</td>
@@ -62,6 +62,7 @@ Welcome to my repository containing source code used to obtain answers to variou
 ### Notes
 |Year|Day|Part|Notes|
 |:--:|:-:|:-:|:---:|
+|2024|12|2|I was ***this*** close to giving up, but it ended up working in the end|
 |2024|9|2|21.586s on 7600x|
 |2024|6|2|23.431s on 7600x; 40.270s on i5-9300H|
 |2023|5|2|Counts location from 1 and tries to find matching seed by traversing the map in reverse. I have no further ideas how to make it more efficient. <br> **Exec time**: 6:54.668 on Ryzen 5 5600X |
