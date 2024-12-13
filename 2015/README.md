@@ -1,5 +1,4 @@
 # advent-of-code - Year 2015
----
 ### Completion
 <b>Legend:  </b>
 - ✅ · Completed

@@ -1,5 +1,4 @@
 # advent-of-code - Year 2024
----
 ### Completion
 <b>Legend:  </b>
 - ✅ · Completed
