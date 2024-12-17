@@ -13,10 +13,10 @@
   </tr>
     <tr>
     <td rowspan="2"><b>2024</td>
-    <td colspan="2"><center><b>1</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td>
+    <td colspan="2"><center><b>1</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td>
   </tr>
   <tr>
-    <td colspan="2"><center><b>2</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td>
+    <td colspan="2"><center><b>2</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>🔜</td><td>✅</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td>
   </tr> 
 </table>
 
@@ -24,6 +24,7 @@
 ### Notes
 |Year|Day|Part|Notes|
 |:--:|:-:|:-:|:---:|
+|2024|17|2|By-Octal solution - Checks if lowest octal of initial A register, iterated from 0-7, will give a program output equal to the suffix of the program. If yes, it is multiplied by 0b10 (8), and pushed into a dict of valid initial A registers. Repeated untill output matches program 1:1. Instantly gives answer.|
 |2024|16|2|Not done, takes forever to complete|
 |2024|16|1|Incredibly hard for me, the solution is just god-awful. I'm just proud I got the star after so much work. 7.336s on 7600x|
 |2024|12|2|I was ***this*** close to giving up, but it ended up working in the end|
