@@ -13,7 +13,7 @@
   </tr>
     <tr>
     <td rowspan="2"><b>2024</td>
-    <td colspan="2"><center><b>1</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td>
+    <td colspan="2"><center><b>1</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td>
   </tr>
   <tr>
     <td colspan="2"><center><b>2</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td><td>🔜</td>
@@ -24,6 +24,8 @@
 ### Notes
 |Year|Day|Part|Notes|
 |:--:|:-:|:-:|:---:|
+|2024|16|2|Not done, takes forever to complete|
+|2024|16|1|Incredibly hard for me, the solution is just god-awful. I'm just proud I got the star after so much work. 7.336s on 7600x|
 |2024|12|2|I was ***this*** close to giving up, but it ended up working in the end|
 |2024|9|2|21.586s on 7600x|
 |2024|6|2|23.431s on 7600x; 40.270s on i5-9300H|
