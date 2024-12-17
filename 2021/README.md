@@ -22,5 +22,5 @@
 
 --- 
 ### Notes
-|Year|Day|Part|Notes|
-|:--:|:-:|:-:|:---:|
+|Day|Part|Notes|
+|:-:|:-:|:---:|

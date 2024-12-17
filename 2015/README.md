@@ -22,6 +22,6 @@
 
 --- 
 ### Notes
-|Year|Day|Part|Notes|
-|:--:|:-:|:-:|:---:|
-|2015|7|All|Uses recursion with LRU Cache|
+|Day|Part|Notes|
+|:-:|:-:|:---:|
+|**7**|**All**|Uses recursion with LRU Cache|

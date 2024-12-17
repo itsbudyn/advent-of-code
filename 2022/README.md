@@ -22,10 +22,10 @@
 
 --- 
 ### Notes
-|Year|Day|Part|Notes|
-|:--:|:-:|:-:|:---:|
-|2022|15|All|Gave up on entire day|
-|2022|13|2|Does not sort the packets =)|
-|2022|11|2|Gave up|
-|2022|9|1|Will probably have to redo most of the code if I want to complete 9.2|
-|2022|5|All|Uses hardcoded arrays instead of loading from file|
+|Day|Part|Notes|
+|:-:|:-:|:---:|
+|**15**|**All**|Gave up on entire day|
+|**13**|**2**|Does not sort the packets|
+|**11**|**2**|Gave up|
+|**9**|**1**|Will probably have to redo most of the code if I want to complete 9.2|
+|**5**|**All**|Uses hardcoded arrays instead of loading from file|
