@@ -46,6 +46,7 @@ def main():
     nodesVisited = {}
 
     while paths:
+        print(len(paths))
         newpaths = []
         path = paths[0]
         lastpos = path[-1]
@@ -87,6 +88,7 @@ def main():
     commonSet = set(resultDict[min_result][0])
     for path in range(1, len(resultDict[min_result])): commonSet |= set(resultDict[min_result][path])
 
+    print(min_result)
     return len(commonSet)
 
 if __name__ == "__main__": print(main())
