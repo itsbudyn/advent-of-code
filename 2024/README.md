@@ -7,13 +7,14 @@
 
 |**Task**|**1**|**2**|**3**|**4**|**5**|**6**|**7**|**8**|**9**|**10**|**11**|**12**|**13**|**14**|**15**|**16**|**17**|**18**|**19**|**20**|**21**|**22**|**23**|**24**|**25**|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|**1**|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|❌|✅|🔜|🔜|🔜|
-|**2**|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|🔜|✅|✅|✅|✅|❌|✅|🔜|🔜|🔜|
+|**1**|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|❌|✅|✅|🔜|🔜|
+|**2**|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|🔜|✅|✅|✅|✅|❌|✅|✅|🔜|🔜|
 
 --- 
 ### Notes
 |Day|Part|Notes|
 |:-:|:-:|:---:|
+|**23**|All|itertools.permutations my beloved|
 |**22**|All|Completes both parts in 5.491s on 7600x. <br> For part 2, creates a dictionary of all sequences during secret generation, with their values being resulting prices from all monkeys. Also prevents the same sequence being used twice in the same monkey. In the end, just sum all of the prices per sequence and get the highest one.|
 |**21**|All|Still, impressed that it took me this long to give up on an entire day, compared to previous AOC's. Enjoy my part 1 that will only work on example input.|
 |**20**|**2**|Painfully slow. I have no idea on how to optimize this.|
