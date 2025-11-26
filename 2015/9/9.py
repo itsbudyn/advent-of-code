@@ -1,6 +1,6 @@
 from itertools import permutations
 
-with open("2015/9/9.txt", "r", encoding="UTF-8") as f: lines = f.read().split("\n")
+with open("9.txt", "r", encoding="UTF-8") as f: lines = f.read().split("\n")
 
 def main() -> tuple[int, int]:
     distances: dict[str, dict[str, int]] = {}
