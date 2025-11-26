@@ -19,6 +19,6 @@ Welcome to my repository containing source code used to obtain answers to variou
 ### Completion
 |**Year**|**2024**|**2023**|**2022**|**2021**|**2015**|Total|
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
-|**Stars**|45|23|26|16|14|**124**|
+|**Stars**|45|23|26|16|16|**124**|
 
 Refer to individual year folders for exact day-by-day breakdown and additional notes.
